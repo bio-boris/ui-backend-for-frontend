@@ -6,6 +6,7 @@ python:
 install:
   - pip install -r requirements.txt
   - echo `pwd`
+  - echo `date`
 # command to run tests
 script:
   - python3 -m unittest discover -v test
